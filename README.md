@@ -1,3 +1,9 @@
+# Modelizer fork
+
+This is a fork of the epic ORM-Mapper modelizer.
+
+This fork contains npm modules compatible to be used with NodeJS 4 LTS.
+
 # Modelizer
 
 **The epic ORM-Mapper you want to use for every serious Web-Application. You can access the API directly from your Browser-Code.**
