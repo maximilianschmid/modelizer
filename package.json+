@@ -1,0 +1,52 @@
+{
+  "name": "modelizerfork",
+  "version": "0.6.0",
+  "description": "An ORM-Mapper with a shared model between client and server for MongoDB",
+  "main": "lib/modelizer.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "mongojs": "1.4.1",
+    "q": "1.4.1",
+    "express": "4.13.4",
+    "objectid-browser": "0.0.1",
+    "mongodb": "2.1.7"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "browserify": "13.0.0",
+    "grunt": "^0.4.4",
+    "grunt-contrib-copy": "~0.5.0",
+    "grunt-mocha-test": "~0.10.0",
+    "grunt-contrib-jshint": "~0.9.2",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-browserify": "4.0.1",
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-release": "^0.7.0",
+    "grunt-npm-install": "^0.1.0",
+    "karma": "^0.12.1",
+    "grunt-karma": "^0.8.2",
+    "karma-mocha": "^0.1.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/maximilianschmid/modelizer"
+  },
+  "keywords": [
+    "orm",
+    "mongodb",
+    "angularjs",
+    "model",
+    "modelizer"
+  ],
+  "author": "Jonathan Häberle",
+  "license": "BSD-2-Clause",
+  "bugs": {
+    "url": "https://github.com/dreampulse/modelizer/issues"
+  },
+  "homepage": "http://modelizer.org"
+}
