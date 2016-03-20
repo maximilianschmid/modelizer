@@ -1478,7 +1478,7 @@ var Model = require('./model');
 
 
 // Using the REST-Interface
-Model.ClientConnector = function (host, port) {
+Model.ClientConnector = function (host, port, API_VERSION) {
 
   var unpackInterceptor = function (model, callback) {
     return function (err, docs) {
@@ -1505,7 +1505,7 @@ Model.ClientConnector = function (host, port) {
     var options = {
       host: host,
       port: port,
-      path: path,
+      path: API_VERSION + path,
       method: method,
       withCredentials: true
     }
