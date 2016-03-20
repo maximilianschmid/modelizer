@@ -9,7 +9,7 @@
   "dependencies": {
     "mongojs": "1.4.1",
     "q": "1.4.1",
-    "express": "3.4.8",
+    "express": "4.13.4",
     "objectid-browser": "0.0.1",
     "mongodb": "2.1.7"
   },
