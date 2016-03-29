@@ -1,13 +1,13 @@
 {
   "name": "modelizerfork",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An ORM-Mapper with a shared model between client and server for MongoDB",
   "main": "lib/modelizer.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "mongojs": "1.4.1",
+    "mongojs": "2.3.0",
     "q": "1.4.1",
     "express": "4.13.4",
     "objectid-browser": "0.0.1",
